@@ -1,0 +1,8 @@
+D:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\Manifest.xml
+D:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\BundleServicesProvider.dll
+D:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\BundleServicesProvider.pdb
+D:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csprojResolveAssemblyReference.cache
+D:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csproj.CoreCompileInputs.cache
+D:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csproj.CopyComplete
+D:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.dll
+D:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.pdb
