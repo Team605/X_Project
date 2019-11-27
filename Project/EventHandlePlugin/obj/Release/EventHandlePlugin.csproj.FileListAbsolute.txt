@@ -1,0 +1,9 @@
+C:\gitLib\C-Project\Project\EventHandlePlugin\bin\Release\Manifest.xml
+C:\gitLib\C-Project\Project\EventHandlePlugin\bin\Release\EventHandlePlugin.dll
+C:\gitLib\C-Project\Project\EventHandlePlugin\bin\Release\EventHandlePlugin.pdb
+C:\gitLib\C-Project\Project\EventHandlePlugin\bin\Release\NLog.dll
+C:\gitLib\C-Project\Project\EventHandlePlugin\bin\Release\OSGi.NET.dll
+C:\gitLib\C-Project\Project\EventHandlePlugin\obj\Release\EventHandlePlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\EventHandlePlugin\obj\Release\EventHandlePlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\EventHandlePlugin\obj\Release\EventHandlePlugin.dll
+C:\gitLib\C-Project\Project\EventHandlePlugin\obj\Release\EventHandlePlugin.pdb

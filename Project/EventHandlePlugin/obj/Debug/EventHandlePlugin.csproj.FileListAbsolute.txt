@@ -1,10 +1,7 @@
-D:\gitLib\C-Project\Project\EventHandlePlugin\bin\Debug\EventHandlePlugin.dll
-D:\gitLib\C-Project\Project\EventHandlePlugin\bin\Debug\EventHandlePlugin.pdb
-D:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\Manifest.xml
-D:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\EventHandlePlugin.dll
-D:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\EventHandlePlugin.pdb
-D:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csprojResolveAssemblyReference.cache
-D:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CoreCompileInputs.cache
-D:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CopyComplete
-D:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.dll
-D:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.pdb
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\Manifest.xml
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\EventHandlePlugin.dll
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\EventHandlePlugin.pdb
+C:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.dll
+C:\gitLib\C-Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.pdb

@@ -1,0 +1,9 @@
+C:\gitLib\C-Project\Project\LogPlugin\bin\Release\Manifest.xml
+C:\gitLib\C-Project\Project\LogPlugin\bin\Release\LogPlugin.dll
+C:\gitLib\C-Project\Project\LogPlugin\bin\Release\LogPlugin.pdb
+C:\gitLib\C-Project\Project\LogPlugin\bin\Release\NLog.dll
+C:\gitLib\C-Project\Project\LogPlugin\bin\Release\OSGi.NET.dll
+C:\gitLib\C-Project\Project\LogPlugin\obj\Release\LogPlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\LogPlugin\obj\Release\LogPlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\LogPlugin\obj\Release\LogPlugin.dll
+C:\gitLib\C-Project\Project\LogPlugin\obj\Release\LogPlugin.pdb

@@ -31,21 +31,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\Project\Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>..\Project\bin\Debug\Libs\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="ModelPlugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Project\bin\Debug\Libs\ModelPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>..\Project\Lib\Mono.Cecil.dll</HintPath>
+      <HintPath>..\Project\bin\Debug\Libs\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Project\bin\Debug\Libs\NLog.dll</HintPath>
     </Reference>
     <Reference Include="OSGi.NET">
-      <HintPath>..\Project\Lib\OSGi.NET.dll</HintPath>
+      <HintPath>..\Project\bin\Debug\Libs\OSGi.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

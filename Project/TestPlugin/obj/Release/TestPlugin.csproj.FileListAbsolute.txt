@@ -1,0 +1,14 @@
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\Manifest.xml
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\TestPlugin.dll
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\TestPlugin.pdb
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\ModelPlugin.dll
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\Mono.Cecil.dll
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\NLog.dll
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\OSGi.NET.dll
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\ModelPlugin.pdb
+C:\gitLib\C-Project\Project\TestPlugin\bin\Release\ModelPlugin.dll.config
+C:\gitLib\C-Project\Project\TestPlugin\obj\Release\TestPlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\TestPlugin\obj\Release\TestPlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\TestPlugin\obj\Release\TestPlugin.dll
+C:\gitLib\C-Project\Project\TestPlugin\obj\Release\TestPlugin.pdb

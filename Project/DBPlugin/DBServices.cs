@@ -17,7 +17,8 @@ namespace DBPlugin
     {
         private ILogService logService;
         private IEventService eventService;
-        private static string SqlServerConnString = @"Data Source=127.0.0.1,1433;database=MihTest;uid=sa;pwd=123";
+        private static string SqlServerConnString = @"Data Source=localhost;database=Test;uid=sa;pwd=zmy123456";
+        private static string windowsServerConnString = @"Server=CUMT-A-506;Database=Test;Trusted_Connection=SSPI";
         private SqlSugarClient db;
 
         private ILogger logger;
@@ -50,17 +51,21 @@ namespace DBPlugin
             try
             {
                 // 数据库添加一条数据， 并告诉相关订阅者；
-                Person person = model as Person;
-                db.Insertable(person).ExecuteCommand();
+                Student student = model as Student;
+                db.Insertable(student).ExecuteCommand();
                 post();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 logger.Error(e);
+                post();
                 return false;
             }
-            return true;
+            
+                return true;
         }
+       
+
 
         public bool deleteOperation(string sqlCommond)
         {
@@ -129,6 +134,7 @@ namespace DBPlugin
         public void post()
         {
             DBEvent dBEvent = new DBEvent(GetEventMessage);
+            dBEvent.from = "DBPlugin";
             eventService.postEvent(dBEvent);
         }
     }

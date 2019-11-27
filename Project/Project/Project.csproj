@@ -43,13 +43,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Libs\ModelPlugin.dll</HintPath>
     </Reference>
-    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Bundles\LogPlugin\Libs\NLog.dll</HintPath>
+    <Reference Include="NLog">
+      <HintPath>bin\Debug\Libs\NLog.dll</HintPath>
     </Reference>
     <Reference Include="OSGi.NET, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Lib\OSGi.NET.dll</HintPath>
+      <HintPath>bin\Debug\Libs\OSGi.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -123,12 +122,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Lib\ICSharpCode.SharpZipLib.dll" />
-    <Content Include="Lib\log4net.dll" />
-    <Content Include="Lib\Mono.Cecil.dll" />
-    <Content Include="Lib\OSGi.NET.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\BundleServicesProvider\BundleServicesProvider.csproj">
       <Project>{31522d29-bede-4150-9341-0910059ad1d7}</Project>
       <Name>BundleServicesProvider</Name>
@@ -149,6 +142,12 @@
       <Name>TestPlugin</Name>
       <Private>False</Private>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libs\ModelPlugin.dll" />
+    <Content Include="Libs\Newtonsoft.Json.dll" />
+    <Content Include="Libs\NLog.dll" />
+    <Content Include="Libs\SqlSugar.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

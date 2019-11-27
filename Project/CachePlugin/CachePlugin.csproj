@@ -38,13 +38,12 @@
     <Reference Include="Mono.Cecil">
       <HintPath>..\..\..\..\..\mihCode\OSGIDemo\OSGIDemo\bin\Debug\Libs\Mono.Cecil.dll</HintPath>
     </Reference>
-    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Project\bin\Debug\Bundles\LogPlugin\Libs\NLog.dll</HintPath>
+    <Reference Include="NLog">
+      <HintPath>..\Project\bin\Debug\Libs\NLog.dll</HintPath>
     </Reference>
     <Reference Include="OSGi.NET, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Project\Lib\OSGi.NET.dll</HintPath>
+      <HintPath>..\Project\bin\Debug\Libs\OSGi.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

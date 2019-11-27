@@ -1,0 +1,14 @@
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\Manifest.xml
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\DBPlugin.dll.config
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\DBPlugin.dll
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\DBPlugin.pdb
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\ModelPlugin.dll
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\Newtonsoft.Json.dll
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\OSGi.NET.dll
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\ModelPlugin.pdb
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\ModelPlugin.dll.config
+C:\gitLib\C-Project\Project\DBPlugin\bin\Release\Newtonsoft.Json.xml
+C:\gitLib\C-Project\Project\DBPlugin\obj\Release\DBPlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\DBPlugin\obj\Release\DBPlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\DBPlugin\obj\Release\DBPlugin.dll
+C:\gitLib\C-Project\Project\DBPlugin\obj\Release\DBPlugin.pdb

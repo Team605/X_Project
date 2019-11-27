@@ -1,0 +1,9 @@
+C:\gitLib\C-Project\Project\CachePlugin\bin\Release\Manifest.xml
+C:\gitLib\C-Project\Project\CachePlugin\bin\Release\CachePlugin.dll
+C:\gitLib\C-Project\Project\CachePlugin\bin\Release\CachePlugin.pdb
+C:\gitLib\C-Project\Project\CachePlugin\bin\Release\NLog.dll
+C:\gitLib\C-Project\Project\CachePlugin\bin\Release\OSGi.NET.dll
+C:\gitLib\C-Project\Project\CachePlugin\obj\Release\CachePlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\CachePlugin\obj\Release\CachePlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\CachePlugin\obj\Release\CachePlugin.dll
+C:\gitLib\C-Project\Project\CachePlugin\obj\Release\CachePlugin.pdb

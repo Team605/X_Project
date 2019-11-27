@@ -27,3 +27,10 @@ D:\gitLib\C-Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CoreCompile
 D:\gitLib\C-Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CopyComplete
 D:\gitLib\C-Project\Project\CachePlugin\obj\Debug\CachePlugin.dll
 D:\gitLib\C-Project\Project\CachePlugin\obj\Debug\CachePlugin.pdb
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\CachePlugin\Manifest.xml
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\CachePlugin\CachePlugin.dll
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\CachePlugin\CachePlugin.pdb
+C:\gitLib\C-Project\Project\CachePlugin\obj\Debug\CachePlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\CachePlugin\obj\Debug\CachePlugin.dll
+C:\gitLib\C-Project\Project\CachePlugin\obj\Debug\CachePlugin.pdb

@@ -122,7 +122,7 @@ namespace Project
 
         private void testToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            testForm = new TestForm();
+            testForm = new TestForm(framework);
 
             testForm.Show();
         }

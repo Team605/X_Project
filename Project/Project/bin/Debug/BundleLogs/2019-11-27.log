@@ -1,0 +1,12 @@
+2019-11-27 09:38:36.0408 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-11-27 09:38:36.0757 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-11-27 09:38:36.1295 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-11-27 09:38:36.1335 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-11-27 09:38:36.1335 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-11-27 09:38:36.1335 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-11-27 09:39:00.8787 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-11-27 09:39:51.1673 DEBUG PluginDetailForm.stopRadioButton_CheckedChanged => Bundle.Stop => Class1.Stop => DBPlugin Stopped!
+2019-11-27 09:50:27.5575 DEBUG PluginDetailForm.activeRadioButton_CheckedChanged => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-11-27 09:50:33.4405 DEBUG PluginDetailForm.stopRadioButton_CheckedChanged => Bundle.Stop => Class1.Stop => DBPlugin Stopped!
+2019-11-27 09:50:56.1046 DEBUG PluginDetailForm.activeRadioButton_CheckedChanged => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-11-27 09:51:13.5327 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message!

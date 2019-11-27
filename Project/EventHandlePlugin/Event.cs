@@ -8,6 +8,9 @@ namespace EventHandlePlugin
 {
     public abstract class Event
     {
+
+        public string from { set; get; }
+
         public abstract EventMessage getMessage();
     }
 }

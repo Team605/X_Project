@@ -1,0 +1,9 @@
+C:\gitLib\C-Project\Project\BundleServicesProvider\bin\Release\Manifest.xml
+C:\gitLib\C-Project\Project\BundleServicesProvider\bin\Release\BundleServicesProvider.dll
+C:\gitLib\C-Project\Project\BundleServicesProvider\bin\Release\BundleServicesProvider.pdb
+C:\gitLib\C-Project\Project\BundleServicesProvider\bin\Release\NLog.dll
+C:\gitLib\C-Project\Project\BundleServicesProvider\bin\Release\OSGi.NET.dll
+C:\gitLib\C-Project\Project\BundleServicesProvider\obj\Release\BundleServicesProvider.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\BundleServicesProvider\obj\Release\BundleServicesProvider.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\BundleServicesProvider\obj\Release\BundleServicesProvider.dll
+C:\gitLib\C-Project\Project\BundleServicesProvider\obj\Release\BundleServicesProvider.pdb
