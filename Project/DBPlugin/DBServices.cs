@@ -17,7 +17,7 @@ namespace DBPlugin
     {
         private ILogService logService;
         private IEventService eventService;
-        private static string SqlServerConnString = @"Data Source=localhost;database=Test;uid=sa;pwd=zmy123456";
+        private static string SqlServerConnString = @"Data Source=10.3.192.93;database=Test;uid=sa;pwd=zmy123456";
         private static string windowsServerConnString = @"Server=CUMT-A-506;Database=Test;Trusted_Connection=SSPI";
         private SqlSugarClient db;
 
@@ -53,12 +53,11 @@ namespace DBPlugin
                 // 数据库添加一条数据， 并告诉相关订阅者；
                 Student student = model as Student;
                 db.Insertable(student).ExecuteCommand();
-                post();
+                post(getEvent("DBPlugin", student));
             }
             catch (Exception e)
             {
-                logger.Error(e);
-                post();
+                logger.Error(e);               
                 return false;
             }
             
@@ -121,21 +120,17 @@ namespace DBPlugin
             return true;
         }
 
-        private EventMessage GetEventMessage
-        {
-            get
-            {
-
-                EventMessage eventMessage = new EventMessage();
-                return eventMessage;
-            }
+        public void post(Event e) 
+        {           
+            eventService.postEvent(e);
         }
 
-        public void post()
+        public Event getEvent(string from, object obj)
         {
-            DBEvent dBEvent = new DBEvent(GetEventMessage);
-            dBEvent.from = "DBPlugin";
-            eventService.postEvent(dBEvent);
+            DBEvent dBEvent = new DBEvent();
+            dBEvent.from = from;
+            dBEvent.obj = obj;
+            return dBEvent;
         }
     }
 }

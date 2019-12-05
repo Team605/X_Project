@@ -1,0 +1,14 @@
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\TestPlugin2\Manifest.xml
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\TestPlugin2\TestPlugin2.dll
+C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\TestPlugin2\TestPlugin2.pdb
+C:\gitLib\C-Project\Project\TestPlugin2\obj\Debug\TestPlugin2.csprojResolveAssemblyReference.cache
+C:\gitLib\C-Project\Project\TestPlugin2\obj\Debug\TestPlugin2.csproj.CoreCompileInputs.cache
+C:\gitLib\C-Project\Project\TestPlugin2\obj\Debug\TestPlugin2.dll
+C:\gitLib\C-Project\Project\TestPlugin2\obj\Debug\TestPlugin2.pdb
+D:\C#Project\Project\Project\bin\Debug\Bundles\TestPlugin2\Manifest.xml
+D:\C#Project\Project\Project\bin\Debug\Bundles\TestPlugin2\TestPlugin2.dll
+D:\C#Project\Project\Project\bin\Debug\Bundles\TestPlugin2\TestPlugin2.pdb
+D:\C#Project\Project\TestPlugin2\obj\Debug\TestPlugin2.csproj.CoreCompileInputs.cache
+D:\C#Project\Project\TestPlugin2\obj\Debug\TestPlugin2.csproj.CopyComplete
+D:\C#Project\Project\TestPlugin2\obj\Debug\TestPlugin2.dll
+D:\C#Project\Project\TestPlugin2\obj\Debug\TestPlugin2.pdb

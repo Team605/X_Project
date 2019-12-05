@@ -37,3 +37,12 @@ C:\gitLib\C-Project\Project\DBPlugin\obj\Debug\DBPlugin.csprojResolveAssemblyRef
 C:\gitLib\C-Project\Project\DBPlugin\obj\Debug\DBPlugin.csproj.CoreCompileInputs.cache
 C:\gitLib\C-Project\Project\DBPlugin\obj\Debug\DBPlugin.dll
 C:\gitLib\C-Project\Project\DBPlugin\obj\Debug\DBPlugin.pdb
+D:\C#Project\Project\Project\bin\Debug\Bundles\DBPlugin\Manifest.xml
+D:\C#Project\Project\Project\bin\Debug\Bundles\DBPlugin\DBPlugin.dll.config
+D:\C#Project\Project\Project\bin\Debug\Bundles\DBPlugin\DBPlugin.dll
+D:\C#Project\Project\Project\bin\Debug\Bundles\DBPlugin\DBPlugin.pdb
+D:\C#Project\Project\DBPlugin\obj\Debug\DBPlugin.csprojResolveAssemblyReference.cache
+D:\C#Project\Project\DBPlugin\obj\Debug\DBPlugin.csproj.CoreCompileInputs.cache
+D:\C#Project\Project\DBPlugin\obj\Debug\DBPlugin.csproj.CopyComplete
+D:\C#Project\Project\DBPlugin\obj\Debug\DBPlugin.dll
+D:\C#Project\Project\DBPlugin\obj\Debug\DBPlugin.pdb

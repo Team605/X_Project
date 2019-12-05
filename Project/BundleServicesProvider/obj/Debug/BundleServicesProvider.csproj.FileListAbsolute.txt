@@ -5,3 +5,11 @@ C:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvi
 C:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csproj.CoreCompileInputs.cache
 C:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.dll
 C:\gitLib\C-Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.pdb
+D:\C#Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csprojResolveAssemblyReference.cache
+D:\C#Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csproj.CoreCompileInputs.cache
+D:\C#Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\Manifest.xml
+D:\C#Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\BundleServicesProvider.dll
+D:\C#Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\BundleServicesProvider.pdb
+D:\C#Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csproj.CopyComplete
+D:\C#Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.dll
+D:\C#Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.pdb

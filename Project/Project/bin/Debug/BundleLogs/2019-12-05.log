@@ -1,0 +1,102 @@
+2019-12-05 19:52:10.7840 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 19:52:10.8440 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 19:52:10.9440 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 19:52:10.9440 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 19:52:10.9740 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 19:52:10.9740 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 19:52:10.9940 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 19:52:30.0920 ERROR Control.OnClick => TestForm.createButton_Click => DBServices.createOperation => SqlSugar.SqlSugarException: English Message : Connection open error . 用户 'sa' 登录失败。
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：用户 'sa' 登录失败。.
+   在 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   在 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   在 DBPlugin.DBServices.createOperation(Model model) 位置 D:\C#Project\Project\DBPlugin\DBServices.cs:行号 55
+2019-12-05 19:54:17.9076 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 19:54:17.9776 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 19:54:18.0675 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 19:54:18.0675 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 19:54:18.0875 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 19:54:18.1075 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 19:54:18.1175 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 19:54:58.0084 ERROR Control.OnClick => TestForm.createButton_Click => DBServices.createOperation => SqlSugar.SqlSugarException: English Message : Connection open error . 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接).
+   在 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   在 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   在 DBPlugin.DBServices.createOperation(Model model) 位置 D:\C#Project\Project\DBPlugin\DBServices.cs:行号 55
+2019-12-05 19:55:24.0746 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 19:55:24.1646 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 19:56:06.6509 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 19:56:08.4807 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 19:56:08.4990 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 19:56:08.5120 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 19:56:08.5270 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 20:02:43.0379 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 20:02:43.1222 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 20:02:43.2481 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 20:02:43.2641 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 20:02:43.2771 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 20:02:43.2901 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 20:02:43.3041 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 20:03:02.2163 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:03:02.2232 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-05 20:03:02.3242 ERROR Control.OnClick => TestForm.createButton_Click => DBServices.createOperation => System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Project.TestForm.notify(Event e) 位置 D:\C#Project\Project\Project\TestForm.cs:行号 46
+   在 EventHandlePlugin.EventService.postEvent(Event e) 位置 D:\C#Project\Project\EventHandlePlugin\EventService.cs:行号 18
+   在 TestPlugin2.ListenerTest.post(Event e) 位置 D:\C#Project\Project\TestPlugin2\ListenerTest.cs:行号 51
+   在 TestPlugin2.ListenerTest.notify(Event e) 位置 D:\C#Project\Project\TestPlugin2\ListenerTest.cs:行号 44
+   在 EventHandlePlugin.EventService.postEvent(Event e) 位置 D:\C#Project\Project\EventHandlePlugin\EventService.cs:行号 18
+   在 TestPlugin.ListenerTest.post(Event e) 位置 D:\C#Project\Project\TestPlugin\ListenerTest.cs:行号 52
+   在 TestPlugin.ListenerTest.notify(Event e) 位置 D:\C#Project\Project\TestPlugin\ListenerTest.cs:行号 45
+   在 EventHandlePlugin.EventService.postEvent(Event e) 位置 D:\C#Project\Project\EventHandlePlugin\EventService.cs:行号 18
+   在 DBPlugin.DBServices.post(Event e) 位置 D:\C#Project\Project\DBPlugin\DBServices.cs:行号 125
+   在 DBPlugin.DBServices.createOperation(Model model) 位置 D:\C#Project\Project\DBPlugin\DBServices.cs:行号 56
+2019-12-05 20:03:24.4801 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:03:24.4801 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-05 20:08:28.3142 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 20:08:28.4011 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 20:08:28.5086 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 20:08:28.5286 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 20:08:28.5486 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 20:08:28.5586 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 20:08:28.5786 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 20:08:46.3769 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:08:46.3769 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-05 20:10:36.5838 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 20:10:36.6638 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 20:10:36.7637 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 20:10:36.7737 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 20:10:36.7837 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 20:10:36.7837 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 20:10:36.8137 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 20:10:44.6052 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:10:44.6152 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-05 20:11:02.9577 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:11:02.9577 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-05 20:12:16.6746 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:12:16.6746 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-05 20:16:04.1377 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 20:16:04.2077 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 20:16:04.3077 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 20:16:04.3177 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 20:16:04.3177 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 20:16:04.3477 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 20:16:04.3477 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 20:16:14.7666 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:16:14.7666 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-05 20:18:08.5682 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 20:18:08.6382 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 20:18:08.7482 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 20:18:08.7682 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 20:18:08.7682 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 20:18:08.7882 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 20:18:08.8082 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 20:18:20.0014 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:18:20.0114 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-05 20:23:03.8324 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-05 20:23:03.9124 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-05 20:23:04.0324 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-05 20:23:04.0524 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-05 20:23:04.0524 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-05 20:23:04.0824 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-05 20:23:04.0824 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-05 20:23:13.4214 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-05 20:23:13.4314 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!

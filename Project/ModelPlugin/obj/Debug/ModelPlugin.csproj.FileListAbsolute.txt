@@ -5,3 +5,11 @@ C:\gitLib\C-Project\Project\ModelPlugin\obj\Debug\ModelPlugin.csprojResolveAssem
 C:\gitLib\C-Project\Project\ModelPlugin\obj\Debug\ModelPlugin.csproj.CoreCompileInputs.cache
 C:\gitLib\C-Project\Project\ModelPlugin\obj\Debug\ModelPlugin.dll
 C:\gitLib\C-Project\Project\ModelPlugin\obj\Debug\ModelPlugin.pdb
+D:\C#Project\Project\Project\bin\Debug\Libs\ModelPlugin.dll.config
+D:\C#Project\Project\Project\bin\Debug\Libs\ModelPlugin.dll
+D:\C#Project\Project\Project\bin\Debug\Libs\ModelPlugin.pdb
+D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.csprojResolveAssemblyReference.cache
+D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.csproj.CoreCompileInputs.cache
+D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.csproj.CopyComplete
+D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.dll
+D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.pdb

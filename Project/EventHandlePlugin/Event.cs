@@ -11,6 +11,6 @@ namespace EventHandlePlugin
 
         public string from { set; get; }
 
-        public abstract EventMessage getMessage();
+        public object obj { set; get; }
     }
 }

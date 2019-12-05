@@ -12,25 +12,41 @@ using ModelPlugin;
 using BundleServicesProvider;
 using OSGi.NET.Core;
 using OSGi.NET.Core.Root;
-
+using TestPlugin2;
+using EventHandlePlugin;
 namespace Project
 {
-    public partial class TestForm : Form
+    public partial class TestForm : Form, IListener
     {
         private IDBServices dBServices;
+        private IEventService eventService;
         public TestForm(IFramework framework)
         {
             string fullName1 = typeof(IDBServices).Assembly.FullName;
             string fulllName2 = typeof(BunderServicesProvider).Assembly.FullName;
-            //dBServices = (DBServices)BunderServicesProvider.DBServices;
             dBServices = framework.GetBundleContext().GetService<IDBServices>();
+            eventService = framework.GetBundleContext().GetService<IEventService>();
+            eventService.registListener(this);
             BunderServicesProvider instance = BunderServicesProvider.getInstance();
             InitializeComponent();
+
         }
 
         public TestForm(IDBServices dBServices)
         {
             InitializeComponent();
+        }
+
+        public void notify(Event e)
+        {
+            string from = e.from;
+            if (from != null && from.Equals("TestPlugin2"))
+            {
+                Student student = e.obj as Student;
+                int age = int.Parse(student.SAge);
+                this.fiveYearsLaterTextBox.Text = (age).ToString();
+                this.fiveYearsLaterTextBox.Refresh();
+            }
         }
 
         private void createButton_Click(object sender, EventArgs e)
@@ -68,5 +84,6 @@ namespace Project
             }
             
         }
+
     }
 }

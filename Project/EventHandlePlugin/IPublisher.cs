@@ -9,6 +9,8 @@ namespace EventHandlePlugin
     // 事件发布接口
     public interface IPublisher
     {
-        void post();
+        Event getEvent(string from, object obj);
+
+        void post(Event e);
     }
 }

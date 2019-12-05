@@ -33,4 +33,10 @@ C:\gitLib\C-Project\Project\Project\bin\Debug\Bundles\LogPlugin\LogPlugin.pdb
 C:\gitLib\C-Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CoreCompileInputs.cache
 C:\gitLib\C-Project\Project\LogPlugin\obj\Debug\LogPlugin.dll
 C:\gitLib\C-Project\Project\LogPlugin\obj\Debug\LogPlugin.pdb
-C:\gitLib\C-Project\Project\LogPlugin\obj\Debug\LogPlugin.csprojResolveAssemblyReference.cache
+D:\C#Project\Project\Project\bin\Debug\Bundles\LogPlugin\Manifest.xml
+D:\C#Project\Project\Project\bin\Debug\Bundles\LogPlugin\LogPlugin.dll
+D:\C#Project\Project\Project\bin\Debug\Bundles\LogPlugin\LogPlugin.pdb
+D:\C#Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CoreCompileInputs.cache
+D:\C#Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CopyComplete
+D:\C#Project\Project\LogPlugin\obj\Debug\LogPlugin.dll
+D:\C#Project\Project\LogPlugin\obj\Debug\LogPlugin.pdb

@@ -8,9 +8,10 @@ using LogPlugin;
 using DBPlugin;
 using ModelPlugin;
 using NLog;
+using TestPlugin2;
 namespace TestPlugin
 {
-    class ListenerTest : IListener
+    class ListenerTest : IListener, IPublisher
     {
         private IEventService eventService;
         private ILogService logService;
@@ -26,19 +27,29 @@ namespace TestPlugin
             eventService.registListener(this);
         }
 
+        public Event getEvent(string from, object obj)
+        {
+            TestPluginEvent testPluginEvent = new TestPluginEvent();
+            testPluginEvent.from = from;
+            testPluginEvent.obj = obj;
+            return testPluginEvent;
+        }
+
         public void notify(Event e)
         {
-            EventMessage message = e.getMessage();
-
+            string from = e.from;
+            if (from != null && from.Equals("DBPlugin"))
+            {
+                object obj = e.obj;
+                logger.Info("recieve message from !" + from);
+                post(getEvent("TestPlugin", obj));
+            }
             
-            if (message != null)
-            {
-                logger.Info("recieve message!");
-            }
-            else
-            {
-                logger.Info("unable to recieve message!");
-            }
+        }
+
+        public void post(Event e)
+        {
+            this.eventService.postEvent(e);
         }
     }
 }

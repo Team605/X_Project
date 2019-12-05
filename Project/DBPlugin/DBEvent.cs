@@ -9,15 +9,6 @@ namespace DBPlugin
 {
     class DBEvent : Event
     {
-        private EventMessage message;
-        public DBEvent(EventMessage message)
-        {
-            this.message = message;
-        }
-
-        public override EventMessage getMessage()
-        {
-            return this.message;
-        }
+        
     }
 }

@@ -30,14 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\..\..\..\..\mihCode\OSGIDemo\OSGIDemo\bin\Debug\Libs\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="ModelPlugin">
       <HintPath>..\Project\bin\Debug\Libs\ModelPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>..\..\..\..\..\mihCode\OSGIDemo\OSGIDemo\bin\Debug\Libs\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -76,6 +70,7 @@
   <ItemGroup>
     <Content Include="Manifest.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>

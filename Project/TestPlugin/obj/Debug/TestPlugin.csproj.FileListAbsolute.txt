@@ -5,3 +5,11 @@ C:\gitLib\C-Project\Project\TestPlugin\obj\Debug\TestPlugin.csprojResolveAssembl
 C:\gitLib\C-Project\Project\TestPlugin\obj\Debug\TestPlugin.csproj.CoreCompileInputs.cache
 C:\gitLib\C-Project\Project\TestPlugin\obj\Debug\TestPlugin.dll
 C:\gitLib\C-Project\Project\TestPlugin\obj\Debug\TestPlugin.pdb
+D:\C#Project\Project\Project\bin\Debug\Bundles\TestPlugin\Manifest.xml
+D:\C#Project\Project\Project\bin\Debug\Bundles\TestPlugin\TestPlugin.dll
+D:\C#Project\Project\Project\bin\Debug\Bundles\TestPlugin\TestPlugin.pdb
+D:\C#Project\Project\TestPlugin\obj\Debug\TestPlugin.csprojResolveAssemblyReference.cache
+D:\C#Project\Project\TestPlugin\obj\Debug\TestPlugin.csproj.CoreCompileInputs.cache
+D:\C#Project\Project\TestPlugin\obj\Debug\TestPlugin.csproj.CopyComplete
+D:\C#Project\Project\TestPlugin\obj\Debug\TestPlugin.dll
+D:\C#Project\Project\TestPlugin\obj\Debug\TestPlugin.pdb
