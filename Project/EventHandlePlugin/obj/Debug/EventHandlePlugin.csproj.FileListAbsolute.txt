@@ -13,3 +13,11 @@ D:\C#Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CoreCo
 D:\C#Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CopyComplete
 D:\C#Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.dll
 D:\C#Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.pdb
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\Manifest.xml
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\EventHandlePlugin.dll
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\EventHandlePlugin.pdb
+D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csprojResolveAssemblyReference.cache
+D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CoreCompileInputs.cache
+D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CopyComplete
+D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.dll
+D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.pdb

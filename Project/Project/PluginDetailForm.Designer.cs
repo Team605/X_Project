@@ -35,6 +35,7 @@
             this.stopRadioButton = new System.Windows.Forms.RadioButton();
             this.activeRadioButton = new System.Windows.Forms.RadioButton();
             this.stateDetialLabel = new System.Windows.Forms.Label();
+            this.buttonForMakeSure = new System.Windows.Forms.Button();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +71,6 @@
             this.uninstallRadioButton.TabStop = true;
             this.uninstallRadioButton.Text = "卸载";
             this.uninstallRadioButton.UseVisualStyleBackColor = true;
-            this.uninstallRadioButton.CheckedChanged += new System.EventHandler(this.uninstallRadioButton_CheckedChanged);
             // 
             // installRadioButton
             // 
@@ -82,7 +82,6 @@
             this.installRadioButton.TabStop = true;
             this.installRadioButton.Text = "安装";
             this.installRadioButton.UseVisualStyleBackColor = true;
-            this.installRadioButton.CheckedChanged += new System.EventHandler(this.installRadioButton_CheckedChanged);
             // 
             // stopRadioButton
             // 
@@ -94,7 +93,6 @@
             this.stopRadioButton.TabStop = true;
             this.stopRadioButton.Text = "停止";
             this.stopRadioButton.UseVisualStyleBackColor = true;
-            this.stopRadioButton.CheckedChanged += new System.EventHandler(this.stopRadioButton_CheckedChanged);
             // 
             // activeRadioButton
             // 
@@ -106,7 +104,6 @@
             this.activeRadioButton.TabStop = true;
             this.activeRadioButton.Text = "激活";
             this.activeRadioButton.UseVisualStyleBackColor = true;
-            this.activeRadioButton.CheckedChanged += new System.EventHandler(this.activeRadioButton_CheckedChanged);
             // 
             // stateDetialLabel
             // 
@@ -116,11 +113,22 @@
             this.stateDetialLabel.TabIndex = 2;
             this.stateDetialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // buttonForMakeSure
+            // 
+            this.buttonForMakeSure.Location = new System.Drawing.Point(375, 221);
+            this.buttonForMakeSure.Name = "buttonForMakeSure";
+            this.buttonForMakeSure.Size = new System.Drawing.Size(75, 23);
+            this.buttonForMakeSure.TabIndex = 3;
+            this.buttonForMakeSure.Text = "确定";
+            this.buttonForMakeSure.UseVisualStyleBackColor = true;
+            this.buttonForMakeSure.Click += new System.EventHandler(this.buttonForMakeSure_Click);
+            // 
             // PluginDetailForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(464, 261);
+            this.Controls.Add(this.buttonForMakeSure);
             this.Controls.Add(this.stateDetialLabel);
             this.Controls.Add(this.groupBox);
             this.Controls.Add(this.stateLabel);
@@ -141,5 +149,6 @@
         private System.Windows.Forms.RadioButton stopRadioButton;
         private System.Windows.Forms.RadioButton activeRadioButton;
         private System.Windows.Forms.Label stateDetialLabel;
+        private System.Windows.Forms.Button buttonForMakeSure;
     }
 }

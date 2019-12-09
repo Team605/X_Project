@@ -42,3 +42,11 @@ D:\C#Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CoreCompileInputs.
 D:\C#Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CopyComplete
 D:\C#Project\Project\CachePlugin\obj\Debug\CachePlugin.dll
 D:\C#Project\Project\CachePlugin\obj\Debug\CachePlugin.pdb
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\CachePlugin\Manifest.xml
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\CachePlugin\CachePlugin.dll
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\CachePlugin\CachePlugin.pdb
+D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.csprojResolveAssemblyReference.cache
+D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CoreCompileInputs.cache
+D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CopyComplete
+D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.dll
+D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.pdb

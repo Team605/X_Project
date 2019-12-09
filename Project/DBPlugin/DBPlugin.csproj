@@ -63,7 +63,9 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DBEvent.cs" />
+    <Compile Include="DBManager.cs" />
     <Compile Include="DBServices.cs" />
+    <Compile Include="EntryManager\StudentManager.cs" />
     <Compile Include="IDBServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -87,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="connection.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

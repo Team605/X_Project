@@ -40,3 +40,10 @@ D:\C#Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CoreCompileInputs.cach
 D:\C#Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CopyComplete
 D:\C#Project\Project\LogPlugin\obj\Debug\LogPlugin.dll
 D:\C#Project\Project\LogPlugin\obj\Debug\LogPlugin.pdb
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\LogPlugin\Manifest.xml
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\LogPlugin\LogPlugin.dll
+D:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\LogPlugin\LogPlugin.pdb
+D:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CoreCompileInputs.cache
+D:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CopyComplete
+D:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.dll
+D:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.pdb

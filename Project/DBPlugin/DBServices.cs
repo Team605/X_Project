@@ -9,21 +9,23 @@ using System.Text;
 using System.Threading.Tasks;
 using ModelPlugin;
 using NLog;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace DBPlugin
 {
-    [Serializable]
     public class DBServices: IDBServices, IPublisher
     {
         private ILogService logService;
         private IEventService eventService;
-        private static string SqlServerConnString = @"Data Source=10.3.192.93;database=Test;uid=sa;pwd=zmy123456";
-        private static string windowsServerConnString = @"Server=CUMT-A-506;Database=Test;Trusted_Connection=SSPI";
+        private static string jsonFilePath = @".\Bundles\DBPlugins\connection.json";
+        private static StringBuilder SqlServerConnStringBuilder = new StringBuilder("");
+        //private static string SqlServerConnString = @"Data Source=localhost;database=Test;uid=sa;pwd=zmy123456";
         private SqlSugarClient db;
-
         private ILogger logger;
         // 数据库是否连接
         private bool connected = true;
+
         public DBServices()
         {
             
@@ -42,6 +44,12 @@ namespace DBPlugin
             
         }
 
+        //public bool Create<T>(T t)
+        //{
+        //    DBManager manager = new DBManager<t>();
+        //    return manager.Create(t);
+        //}
+
         public bool createOperation(Model model)
         {
             if (connected == false)
@@ -53,14 +61,13 @@ namespace DBPlugin
                 // 数据库添加一条数据， 并告诉相关订阅者；
                 Student student = model as Student;
                 db.Insertable(student).ExecuteCommand();
-                post(getEvent("DBPlugin", student));
+                post(getEvent("DBPlugin", model));
             }
             catch (Exception e)
             {
                 logger.Error(e);               
                 return false;
-            }
-            
+            }           
                 return true;
         }
        
@@ -96,9 +103,25 @@ namespace DBPlugin
         {
             try
             {
+                using (System.IO.StreamReader file = System.IO.File.OpenText(jsonFilePath))
+                {
+                    using (JsonTextReader reader = new JsonTextReader(file))
+                    {
+                        JObject o = (JObject)JToken.ReadFrom(reader);
+                        string url = o["url"].ToString();
+                        string dataBase = o["data_base"].ToString();
+                        string user_id = o["user_id"].ToString();
+                        string password = o["password"].ToString();
+                        SqlServerConnStringBuilder.Append("Data Source=").Append(url)
+                                                  .Append("database=").Append(dataBase)
+                                                  .Append("uid=").Append(user_id)
+                                                  .Append("pwd=").Append(password);
+                    }
+                }
+
                 db = new SqlSugarClient(new ConnectionConfig()
                 {
-                    ConnectionString = SqlServerConnString,
+                    ConnectionString = SqlServerConnStringBuilder.ToString(),
                     DbType = DbType.SqlServer,
                     IsAutoCloseConnection = true,
                     InitKeyType = InitKeyType.Attribute
