@@ -47,3 +47,9 @@ D:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CoreCompileInpu
 D:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CopyComplete
 D:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.dll
 D:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.pdb
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\LogPlugin\Manifest.xml
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\LogPlugin\LogPlugin.dll
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\LogPlugin\LogPlugin.pdb
+C:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.dll
+C:\gitLib\X_Project\Project\LogPlugin\obj\Debug\LogPlugin.pdb

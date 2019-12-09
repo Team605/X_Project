@@ -21,3 +21,10 @@ D:\gitLib\X_Project\Project\TestPlugin\obj\Debug\TestPlugin.csproj.CoreCompileIn
 D:\gitLib\X_Project\Project\TestPlugin\obj\Debug\TestPlugin.csproj.CopyComplete
 D:\gitLib\X_Project\Project\TestPlugin\obj\Debug\TestPlugin.dll
 D:\gitLib\X_Project\Project\TestPlugin\obj\Debug\TestPlugin.pdb
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\TestPlugin\Manifest.xml
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\TestPlugin\TestPlugin.dll
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\TestPlugin\TestPlugin.pdb
+C:\gitLib\X_Project\Project\TestPlugin\obj\Debug\TestPlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\X_Project\Project\TestPlugin\obj\Debug\TestPlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\X_Project\Project\TestPlugin\obj\Debug\TestPlugin.dll
+C:\gitLib\X_Project\Project\TestPlugin\obj\Debug\TestPlugin.pdb

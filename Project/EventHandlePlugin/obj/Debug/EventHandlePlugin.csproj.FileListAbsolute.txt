@@ -21,3 +21,10 @@ D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj
 D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CopyComplete
 D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.dll
 D:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.pdb
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\Manifest.xml
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\EventHandlePlugin.dll
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\EventHandlePlugin\EventHandlePlugin.pdb
+C:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.dll
+C:\gitLib\X_Project\Project\EventHandlePlugin\obj\Debug\EventHandlePlugin.pdb

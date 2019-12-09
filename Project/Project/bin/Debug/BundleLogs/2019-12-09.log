@@ -1,0 +1,63 @@
+2019-12-09 10:39:56.1415 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:39:56.2083 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:39:56.3493 WARN Bundle.Start => Class1.Start => DBServices..ctor => 数据库连接失败！
+2019-12-09 10:39:56.3493 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-09 10:39:56.3493 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-09 10:39:56.3650 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-09 10:39:56.3650 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-09 10:39:56.3800 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-09 10:41:37.2454 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:41:37.2863 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:41:37.3667 WARN Bundle.Start => Class1.Start => DBServices..ctor => 数据库连接失败！
+2019-12-09 10:41:37.3667 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-09 10:41:37.3667 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-09 10:41:37.3816 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-09 10:41:37.3816 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-09 10:41:37.3966 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-09 10:42:44.3227 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:42:44.3626 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:42:44.4409 WARN Bundle.Start => Class1.Start => DBServices..ctor => 数据库连接失败！
+2019-12-09 10:42:44.4430 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-09 10:42:44.4430 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-09 10:42:44.4430 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-09 10:42:44.4639 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-09 10:42:44.4639 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-09 10:43:17.9363 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:43:17.9795 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:43:18.0590 WARN Bundle.Start => Class1.Start => DBServices..ctor => 数据库连接失败！
+2019-12-09 10:43:18.0590 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-09 10:43:18.0691 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-09 10:43:18.0691 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-09 10:43:18.0691 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-09 10:43:18.0901 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-09 10:44:08.0396 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:44:08.0785 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:46:28.1112 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:46:28.1551 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:47:48.2796 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:47:48.3228 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:50:50.4490 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:50:50.4890 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:50:50.5808 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-09 10:50:50.5901 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-09 10:50:50.5901 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-09 10:50:50.6030 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-09 10:50:50.6030 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-09 10:51:11.3060 ERROR Control.OnClick => TestForm.createButton_Click => DBServices.createOperation => SqlSugar.SqlSugarException: English Message : Connection open error . 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接).
+   在 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   在 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   在 DBPlugin.DBServices.createOperation(Model model) 位置 C:\gitLib\X_Project\Project\DBPlugin\DBServices.cs:行号 63
+2019-12-09 10:53:16.6445 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:53:16.6868 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:56:12.2800 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:56:12.3245 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:56:33.8318 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-09 10:56:33.8767 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-09 10:56:33.9690 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-09 10:56:33.9783 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-09 10:56:33.9783 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-09 10:56:33.9912 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-09 10:56:33.9912 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-09 10:56:39.8261 INFO DBServices.post => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-09 10:56:39.8261 INFO ListenerTest.post => EventService.postEvent => ListenerTest.notify => recieve message!

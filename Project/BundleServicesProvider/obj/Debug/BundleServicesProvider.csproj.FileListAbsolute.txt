@@ -21,3 +21,10 @@ D:\gitLib\X_Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvi
 D:\gitLib\X_Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csproj.CopyComplete
 D:\gitLib\X_Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.dll
 D:\gitLib\X_Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.pdb
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\Manifest.xml
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\BundleServicesProvider.dll
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\BundleServicesProvider\BundleServicesProvider.pdb
+C:\gitLib\X_Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csprojResolveAssemblyReference.cache
+C:\gitLib\X_Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.csproj.CoreCompileInputs.cache
+C:\gitLib\X_Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.dll
+C:\gitLib\X_Project\Project\BundleServicesProvider\obj\Debug\BundleServicesProvider.pdb

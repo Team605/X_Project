@@ -50,3 +50,10 @@ D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CoreCompile
 D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CopyComplete
 D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.dll
 D:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.pdb
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\CachePlugin\Manifest.xml
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\CachePlugin\CachePlugin.dll
+C:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\CachePlugin\CachePlugin.pdb
+C:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.csprojResolveAssemblyReference.cache
+C:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.csproj.CoreCompileInputs.cache
+C:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.dll
+C:\gitLib\X_Project\Project\CachePlugin\obj\Debug\CachePlugin.pdb

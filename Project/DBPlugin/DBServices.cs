@@ -18,7 +18,7 @@ namespace DBPlugin
     {
         private ILogService logService;
         private IEventService eventService;
-        private static string jsonFilePath = @".\Bundles\DBPlugins\connection.json";
+        private static string jsonFilePath = @".\Bundles\DBPlugin\connection.json";
         private static StringBuilder SqlServerConnStringBuilder = new StringBuilder("");
         //private static string SqlServerConnString = @"Data Source=localhost;database=Test;uid=sa;pwd=zmy123456";
         private SqlSugarClient db;
@@ -112,9 +112,9 @@ namespace DBPlugin
                         string dataBase = o["data_base"].ToString();
                         string user_id = o["user_id"].ToString();
                         string password = o["password"].ToString();
-                        SqlServerConnStringBuilder.Append("Data Source=").Append(url)
-                                                  .Append("database=").Append(dataBase)
-                                                  .Append("uid=").Append(user_id)
+                        SqlServerConnStringBuilder.Append("Data Source=").Append(url).Append(";")
+                                                  .Append("database=").Append(dataBase).Append(";")
+                                                  .Append("uid=").Append(user_id).Append(";")
                                                   .Append("pwd=").Append(password);
                     }
                 }
@@ -135,8 +135,9 @@ namespace DBPlugin
                     Console.WriteLine();
                 };
             }
-            catch
+            catch(Exception e)
             {
+                logger.Error(e.ToString());
                 return false;
             }
 
