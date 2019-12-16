@@ -14,6 +14,8 @@ using OSGi.NET.Core;
 using OSGi.NET.Core.Root;
 using TestPlugin2;
 using EventHandlePlugin;
+using System.Threading;
+
 namespace Project
 {
     public partial class TestForm : Form, IListener
@@ -28,6 +30,8 @@ namespace Project
             eventService = framework.GetBundleContext().GetService<IEventService>();
             eventService.registListener(this);
             BunderServicesProvider instance = BunderServicesProvider.getInstance();
+            // 获取当前线程上下文
+            synchronizationContext = SynchronizationContext.Current;
             InitializeComponent();
 
         }
@@ -36,16 +40,42 @@ namespace Project
         {
             InitializeComponent();
         }
+        // 当前线程上下文
+        SynchronizationContext synchronizationContext = null;
+
+        //其他线程更新窗体的具体操作
+        private void updateFistWinForm(object o)
+        {
+            Student student = o as Student;
+            int age = int.Parse(student.SAge);
+            this.fiveYearsLaterTextBox.Text = (age).ToString();
+            this.fiveYearsLaterTextBox.Refresh();
+        }
+
+        private void updateSecondWinForm(object o)
+        {
+            Student student = o as Student;
+            int age = int.Parse(student.SAge);
+            this.fiveYearsLaterTextBox2.Text = (age).ToString();
+            this.fiveYearsLaterTextBox2.Refresh();
+        }
 
         public void notify(Event e)
         {
             string from = e.from;
             if (from != null && from.Equals("TestPlugin2"))
             {
+                
                 Student student = e.obj as Student;
-                int age = int.Parse(student.SAge);
-                this.fiveYearsLaterTextBox.Text = (age).ToString();
-                this.fiveYearsLaterTextBox.Refresh();
+                synchronizationContext.Post(updateFistWinForm, student);
+                
+            }
+            if (from != null && from.Equals("TestPlugin3"))
+            {
+                
+                Student student = e.obj as Student;
+                synchronizationContext.Post(updateSecondWinForm, student);
+
             }
         }
 

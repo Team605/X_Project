@@ -1,0 +1,128 @@
+2019-12-16 19:26:26.9444 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 19:26:26.9982 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 19:26:27.0192 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 19:26:27.0331 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 19:26:27.0441 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 19:26:27.0441 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 19:26:27.0760 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 19:28:06.7249 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 19:28:06.7758 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 19:28:06.7927 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 19:28:06.8047 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 19:28:06.8157 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 19:28:06.8267 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 19:28:06.8267 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 19:28:11.9829 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 19:28:11.9829 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 19:28:12.0290 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:28:12.0290 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:28:12.0559 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:28:12.0559 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:28:12.0618 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:28:12.0290 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:28:12.0060 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 19:28:12.0618 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:28:12.0618 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:28:12.0618 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:31:38.7107 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 19:31:38.7635 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 19:31:38.7805 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 19:31:38.7805 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 19:31:38.7994 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 19:31:38.8094 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 19:31:38.8094 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 19:32:07.8802 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 19:32:07.8802 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 19:37:38.9260 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 19:37:38.9769 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 19:37:38.9958 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 19:37:39.0058 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 19:37:39.0138 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 19:37:39.0138 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 19:37:39.0357 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 19:39:14.0996 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 19:39:14.1514 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 19:39:14.1694 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 19:39:14.1694 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 19:39:14.1873 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 19:39:14.1873 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 19:39:14.2103 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 19:39:23.0561 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 19:39:23.0590 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 19:56:45.0988 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 19:56:45.1497 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 19:56:45.1686 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 19:56:45.1686 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 19:56:45.1906 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 19:56:45.2036 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 19:56:45.2195 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 19:58:11.2856 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 19:58:11.3424 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 19:58:11.3594 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 19:58:11.3594 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 19:58:11.3783 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 19:58:11.3893 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 19:58:11.3893 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 19:59:48.7894 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 20:01:08.5031 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 20:01:08.5520 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 20:01:08.5715 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 20:01:08.5814 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 20:01:08.5814 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 20:01:08.5984 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 20:01:08.6074 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 20:01:08.6074 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 20:02:13.1847 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 20:02:13.1847 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 20:02:13.1847 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 20:05:08.5368 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 20:05:08.6066 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 20:05:08.6225 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 20:05:08.6225 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 20:05:08.6405 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 20:05:08.6405 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 20:05:08.6574 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 20:05:08.6574 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin3 Started!
+2019-12-16 20:05:18.2071 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 20:05:18.2071 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 20:05:18.2330 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 20:27:09.2242 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 20:27:09.2741 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 20:27:09.2960 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 20:27:09.2960 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 20:27:09.3180 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 20:27:09.3289 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 20:27:09.3289 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 20:27:09.3509 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin3 Started!
+2019-12-16 20:27:39.9258 INFO QueueUserWorkItemCallback.WaitCallback_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 21:19:30.0431 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 21:19:30.1008 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 21:19:30.1297 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 21:19:30.1387 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 21:19:30.1387 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 21:19:30.1566 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 21:19:30.1566 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 21:19:30.1779 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin3 Started!
+2019-12-16 21:19:56.0284 INFO ThreadHelper.ThreadStart_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 21:19:56.6182 INFO ThreadHelper.ThreadStart_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 21:20:50.7211 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 21:20:50.7700 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 21:20:50.7910 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 21:20:50.8009 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 21:20:50.8109 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 21:20:50.8109 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 21:20:50.8318 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 21:20:50.8408 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin3 Started!
+2019-12-16 21:20:55.3063 INFO ThreadHelper.ThreadStart_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 21:20:55.3132 INFO ThreadHelper.ThreadStart_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 21:21:23.7034 DEBUG Framework.Start => Bundle.Start => Class1.Start => LogPlugin Started!
+2019-12-16 21:21:23.7478 INFO Framework.Start => Bundle.Start => Class1.Start => EventHandlePlugin Started!
+2019-12-16 21:21:23.7668 DEBUG Framework.Start => Bundle.Start => Class1.Start => DBPlugin Started!
+2019-12-16 21:21:23.7787 INFO Framework.Start => Bundle.Start => Class1.Start => BundleServicesProvider Started!
+2019-12-16 21:21:23.7787 DEBUG Framework.Start => Bundle.Start => Class1.Start => CachePlugin Started!
+2019-12-16 21:21:23.7967 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin Started!
+2019-12-16 21:21:23.7967 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin2 Started!
+2019-12-16 21:21:23.8166 DEBUG Framework.Start => Bundle.Start => Class1.Start => TestPlugin3 Started!
+2019-12-16 21:21:28.5943 INFO ThreadHelper.ThreadStart_Context => EventService.postEvent => ListenerTest.notify => recieve message from !DBPlugin
+2019-12-16 21:21:28.5943 INFO ThreadHelper.ThreadStart_Context => EventService.postEvent => ListenerTest.notify => recieve message!
+2019-12-16 21:21:28.6172 INFO ThreadHelper.ThreadStart_Context => EventService.postEvent => ListenerTest.notify => recieve message!

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ModelPlugin
 {
+    [Serializable]
     [SugarTable("student")]
     public class Student: Model
     {

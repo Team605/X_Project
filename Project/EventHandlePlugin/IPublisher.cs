@@ -11,6 +11,7 @@ namespace EventHandlePlugin
     {
         Event getEvent(string from, object obj);
 
-        void post(Event e);
+        // 在一个单独的线程中分发事件
+        void post(object o);
     }
 }

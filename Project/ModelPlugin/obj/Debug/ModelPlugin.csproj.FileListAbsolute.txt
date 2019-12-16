@@ -13,3 +13,9 @@ D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.csproj.CoreCompileInputs.
 D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.csproj.CopyComplete
 D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.dll
 D:\C#Project\Project\ModelPlugin\obj\Debug\ModelPlugin.pdb
+E:\gitLib\X_Project\Project\Project\bin\Debug\Libs\ModelPlugin.dll.config
+E:\gitLib\X_Project\Project\Project\bin\Debug\Libs\ModelPlugin.dll
+E:\gitLib\X_Project\Project\Project\bin\Debug\Libs\ModelPlugin.pdb
+E:\gitLib\X_Project\Project\ModelPlugin\obj\Debug\ModelPlugin.csproj.CopyComplete
+E:\gitLib\X_Project\Project\ModelPlugin\obj\Debug\ModelPlugin.dll
+E:\gitLib\X_Project\Project\ModelPlugin\obj\Debug\ModelPlugin.pdb

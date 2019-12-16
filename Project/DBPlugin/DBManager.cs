@@ -19,7 +19,7 @@ namespace DBPlugin
 
         public DBManager()
         {
-            initDB();
+            //initDB();
         }
 
         public DBManager(ILogger logger)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace EventHandlePlugin
@@ -10,13 +11,13 @@ namespace EventHandlePlugin
     {
         List<IListener> listeners = new List<IListener>();
 
-        // 分发事件给相应订阅者
-        public void postEvent(Event e)
+        public  void postEvent(object o)
         {
-            foreach(IListener listener in listeners)
-            {
+            Event e = o as Event;
+            foreach (IListener listener in listeners)
+            {                
                 listener.notify(e);
-            }
+            }            
         }
 
         public void registListener(IListener listener)

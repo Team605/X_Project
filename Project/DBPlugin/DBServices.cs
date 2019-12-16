@@ -11,6 +11,7 @@ using ModelPlugin;
 using NLog;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Threading;
 
 namespace DBPlugin
 {
@@ -36,11 +37,11 @@ namespace DBPlugin
             this.logService = logService;
             this.eventService = eventService;
             logger = logService.GetLogger();
-            if (!initDBServices())
-            {
-                logger.Warn("数据库连接失败！");
-                connected = false;
-            }
+            //if (!initDBServices())
+            //{
+            //    logger.Warn("数据库连接失败！");
+            //    connected = false;
+            //}
             
         }
 
@@ -52,15 +53,15 @@ namespace DBPlugin
 
         public bool createOperation(Model model)
         {
-            if (connected == false)
-            {
-                return false;
-            }
+            //if (connected == false)
+            //{
+            //    return false;
+            //}
             try
             {
                 // 数据库添加一条数据， 并告诉相关订阅者；
-                Student student = model as Student;
-                db.Insertable(student).ExecuteCommand();
+                //Student student = model as Student;
+                //db.Insertable(student).ExecuteCommand();
                 post(getEvent("DBPlugin", model));
             }
             catch (Exception e)
@@ -144,9 +145,10 @@ namespace DBPlugin
             return true;
         }
 
-        public void post(Event e) 
-        {           
-            eventService.postEvent(e);
+        public void post(object o) 
+        {
+            Thread thread = new Thread(new ParameterizedThreadStart(eventService.postEvent));
+            thread.Start(o);
         }
 
         public Event getEvent(string from, object obj)

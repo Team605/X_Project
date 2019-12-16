@@ -8,6 +8,7 @@ using LogPlugin;
 using NLog;
 namespace CachePlugin
 {
+
     public class Class1 : IBundleActivator
     {
         private ILogService logService;

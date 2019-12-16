@@ -12,3 +12,9 @@ D:\C#Project\Project\TestPlugin2\obj\Debug\TestPlugin2.csproj.CoreCompileInputs.
 D:\C#Project\Project\TestPlugin2\obj\Debug\TestPlugin2.csproj.CopyComplete
 D:\C#Project\Project\TestPlugin2\obj\Debug\TestPlugin2.dll
 D:\C#Project\Project\TestPlugin2\obj\Debug\TestPlugin2.pdb
+E:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\TestPlugin2\Manifest.xml
+E:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\TestPlugin2\TestPlugin2.dll
+E:\gitLib\X_Project\Project\Project\bin\Debug\Bundles\TestPlugin2\TestPlugin2.pdb
+E:\gitLib\X_Project\Project\TestPlugin2\obj\Debug\TestPlugin2.csproj.CopyComplete
+E:\gitLib\X_Project\Project\TestPlugin2\obj\Debug\TestPlugin2.dll
+E:\gitLib\X_Project\Project\TestPlugin2\obj\Debug\TestPlugin2.pdb

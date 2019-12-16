@@ -8,6 +8,8 @@ using LogPlugin;
 using DBPlugin;
 using ModelPlugin;
 using NLog;
+using System.Threading;
+
 namespace TestPlugin2
 {
     class ListenerTest : IListener, IPublisher
@@ -41,15 +43,18 @@ namespace TestPlugin2
             {
                 logger.Info("recieve message!");
                 Student student = e.obj as Student;
-                student.SAge = (int.Parse(student.SAge) + 5).ToString();
-                post(getEvent("TestPlugin2", student));
+                
+                Student _student = Student.CloneObject(student) as Student;
+                _student.SAge = (int.Parse(_student.SAge) + 5).ToString();
+                post(getEvent("TestPlugin2", _student));
             }
             
         }
 
-        public void post(Event e)
+        public void post(object o)
         {
-            eventService.postEvent(e);
+            Thread thread = new Thread(new ParameterizedThreadStart(eventService.postEvent));
+            thread.Start(o);
         }
     }
 }

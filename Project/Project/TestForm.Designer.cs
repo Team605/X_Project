@@ -41,6 +41,8 @@
             this.sageTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.fiveYearsLaterTextBox = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.fiveYearsLaterTextBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -118,7 +120,7 @@
             // snoTextBox
             // 
             this.snoTextBox.Location = new System.Drawing.Point(493, 56);
-            this.snoTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.snoTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.snoTextBox.Name = "snoTextBox";
             this.snoTextBox.Size = new System.Drawing.Size(76, 21);
             this.snoTextBox.TabIndex = 8;
@@ -126,7 +128,7 @@
             // snameTextBox
             // 
             this.snameTextBox.Location = new System.Drawing.Point(492, 104);
-            this.snameTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.snameTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.snameTextBox.Name = "snameTextBox";
             this.snameTextBox.Size = new System.Drawing.Size(77, 21);
             this.snameTextBox.TabIndex = 9;
@@ -134,7 +136,7 @@
             // sageTextBox
             // 
             this.sageTextBox.Location = new System.Drawing.Point(492, 162);
-            this.sageTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.sageTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.sageTextBox.Name = "sageTextBox";
             this.sageTextBox.Size = new System.Drawing.Size(77, 21);
             this.sageTextBox.TabIndex = 10;
@@ -144,9 +146,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(492, 204);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 12);
+            this.label6.Size = new System.Drawing.Size(113, 12);
             this.label6.TabIndex = 11;
-            this.label6.Text = "5年后";
+            this.label6.Text = "5年后(TestPlugin2)";
             // 
             // fiveYearsLaterTextBox
             // 
@@ -155,11 +157,29 @@
             this.fiveYearsLaterTextBox.Size = new System.Drawing.Size(100, 21);
             this.fiveYearsLaterTextBox.TabIndex = 12;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(492, 261);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(125, 12);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "5年后（TestPlugin3）";
+            // 
+            // fiveYearsLaterTextBox2
+            // 
+            this.fiveYearsLaterTextBox2.Location = new System.Drawing.Point(492, 277);
+            this.fiveYearsLaterTextBox2.Name = "fiveYearsLaterTextBox2";
+            this.fiveYearsLaterTextBox2.Size = new System.Drawing.Size(100, 21);
+            this.fiveYearsLaterTextBox2.TabIndex = 14;
+            // 
             // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.fiveYearsLaterTextBox2);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.fiveYearsLaterTextBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.sageTextBox);
@@ -195,5 +215,7 @@
         private System.Windows.Forms.TextBox sageTextBox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox fiveYearsLaterTextBox;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox fiveYearsLaterTextBox2;
     }
 }

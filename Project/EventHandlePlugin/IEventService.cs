@@ -14,6 +14,6 @@ namespace EventHandlePlugin
         // 删除订阅者
         void removeListener(IListener listener);
 
-        void postEvent(Event e);
+        void postEvent(object o);
     }
 }

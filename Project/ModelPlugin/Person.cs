@@ -9,6 +9,7 @@ namespace ModelPlugin
 {
     // 测试实体
     [SugarTable("Person")]
+    [Serializable]
     public class Person: Model
     {
         [SugarColumn(ColumnName = "age")]

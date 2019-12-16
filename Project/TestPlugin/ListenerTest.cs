@@ -9,6 +9,8 @@ using DBPlugin;
 using ModelPlugin;
 using NLog;
 using TestPlugin2;
+using System.Threading;
+
 namespace TestPlugin
 {
     class ListenerTest : IListener, IPublisher
@@ -40,16 +42,17 @@ namespace TestPlugin
             string from = e.from;
             if (from != null && from.Equals("DBPlugin"))
             {
-                object obj = e.obj;
+                object obj = e.obj;                              
                 logger.Info("recieve message from !" + from);
                 post(getEvent("TestPlugin", obj));
             }
             
         }
 
-        public void post(Event e)
+        public void post(object o)
         {
-            this.eventService.postEvent(e);
+            Thread thread = new Thread(new ParameterizedThreadStart(eventService.postEvent));
+            thread.Start(o);
         }
     }
 }
